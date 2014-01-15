@@ -1,5 +1,7 @@
 kscope
 ======
-sudo yum install kdelibs kdelibs-devel qt3-devel
+For new fedora:
+sudo yum install kdelibs kdelibs-devel qt3-devel gcc-c++
 
-sudo yum install kdelib3 kdelibs-devel qt3-devel
+For old fedora:
+sudo yum install kdelib3 kdelibs-devel qt3-devel gcc-c++
