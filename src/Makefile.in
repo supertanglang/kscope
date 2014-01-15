@@ -479,7 +479,7 @@ kscope_SOURCES= bookmarksdlg.cpp  \
 	 tabwidget.cpp treewidget.cpp  autocompletionlayout.cpp bookmarkslayout.cpp calltreelayout.cpp cscopemsglayout.cpp fileviewlayout.cpp graphpreflayout.cpp makelayout.cpp newprojectlayout.cpp openprojectlayout.cpp prefcolorlayout.cpp preffontlayout.cpp preffrontendlayout.cpp prefoptlayout.cpp projectfileslayout.cpp queryviewlayout.cpp querywidgetlayout.cpp scanprogresslayout.cpp searchresultslayout.cpp symbollayout.cpp welcomedlg.cpp
 
 kscope_LDFLAGS = $(KDE_RPATH) $(all_libraries)
-kscope_LDADD = -lkateinterfaces -lktexteditor $(LIB_KDEUI)
+kscope_LDADD = -lkatepartinterfaces -lktexteditor $(LIB_KDEUI)
 
 # this is where the desktop file will go 
 shelldesktopdir = $(kde_appsdir)/Development
