@@ -829,8 +829,9 @@ dist-hook:
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:
 
+
 #>+ 2
-KDE_DIST=subdirs Makefile.in configure.files config.h.in configure.in Makefile.cvs aclocal.m4 Doxyfile Makefile.am configure acinclude.m4 
+KDE_DIST=stamp-h.in configure.files config.h.in Makefile.in Makefile.am subdirs LICENSE configure.in README.md Doxyfile aclocal.m4 acinclude.m4 
 
 #>+ 2
 docs-am:
